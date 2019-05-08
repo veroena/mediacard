@@ -1,0 +1,86 @@
+@import 'vars';
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.App {
+  background-color: lightgrey;
+  height: 460px;
+  width: 413px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  height: 393px;
+  width: 365px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.151);
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: $bg;
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-right: 20px;
+  // background-image: url('https://reason.org/wp-content/uploads/2018/01/guybentley.jpg');
+  // background-size: contain;
+  // background-position: center;
+}
+
+.username {
+  margin: 0;
+  font-size: 20px;
+}
+
+.date {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.likes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fa-heart {
+  margin-left: 10px;
+  color: red;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin: 10px;
+}
